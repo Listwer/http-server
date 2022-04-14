@@ -129,6 +129,7 @@ fn path_to_content_type(path: &str) -> &str {
                 "csv" => return "text/csv",
                 "js" => return "application/javascript",
                 "json" => return "application/json",
+                "wasm" => return "application/wasm",
                 "pdf" => return "application/pdf",
                 "zip" => return "application/zip",
                 "gif" => return "image/gif",
